@@ -15,7 +15,6 @@
       <root url="jar://$PROJECT_DIR$/lib/commons-lang-2.4.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/commons-collections-3.2.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/jsp-api-2.1-6.1.14.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/junit-3.8.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/commons-digester-1.8.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/commons-el-1.0.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/xmlenc-0.52.jar!/" />

@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="WebLogAnalytics">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/out/artifacts/WebLogAnalytics_jar/WebLogAnalytics.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
