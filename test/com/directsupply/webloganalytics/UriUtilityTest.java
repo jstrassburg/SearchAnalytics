@@ -15,4 +15,13 @@ public class UriUtilityTest {
         Assert.assertEquals("BAR", actual.get("FOO"));
         Assert.assertNull(actual.get("BARF"));
     }
+
+    @Test
+    public void testParseQueryStringFromUriWithDecode() throws Exception {
+        String uri = "http://foo.com/asdf?foo=bar&bar=this+phrase";
+        Map<String, String> actual = UriUtility.parseQueryStringFromUri(uri);
+        Assert.assertEquals(2, actual.size());
+        Assert.assertEquals("bar", actual.get("foo"));
+        Assert.assertEquals("this phrase", actual.get("bar"));
+    }
 }
