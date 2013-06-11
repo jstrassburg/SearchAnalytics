@@ -20,9 +20,8 @@ local.properties
 .project
 
 # Intellij
-.idea/
-*.iml
-*.iws
+.idea/workspace.xml
+.idea/tasks.xml
 out/
 
 # Maven
